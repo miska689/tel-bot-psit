@@ -6,10 +6,6 @@ async function initBotLang(bot, chatId, data) {
 
        const langData = JSON.parse(langFile)
 
-       console.log(data);
-
-       await bot.sendMessage(chatId, "LOl");
-
        return langData;
 
     } catch (e) {

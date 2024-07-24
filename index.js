@@ -3,6 +3,8 @@ const {initCommands} = require('./commands/commands');
 const {initMessageEffect} = require('./effects/messegeEffect');
 const {initQueryDataEffect} = require('./effects/queryDataEffect');
 const {initStartEffect} = require('./effects/startEffect');
+const {initRegEffect} = require('./effects/regEffect');
+const {initLogEffect} = require('./effects/logEffect');
 
 require('dotenv').config({
     path: `.dev.env`,
@@ -15,6 +17,8 @@ const langConf = {
 
 const token = process.env.TELEGRAM_BOT_TOKEN;
 
+const url = process.env.TELEGRAM_BOT_URL;
+
 const bot = new TelegramBot(token, {polling: true});
 
 const start = () => {
@@ -24,7 +28,12 @@ const start = () => {
 
     bot.onText(/\/info/, async msg => bot.sendMessage(msg.chat.id, langConf.langData.lang.commands.info))
 
+    bot.onText(/\/reg/, initRegEffect(bot, langConf, url))
+
+    bot.onText(/\/log/, initLogEffect(bot, langConf, url))
+
     bot.on('callback_query',  initQueryDataEffect(bot, langConf))
+
 
 }
 start()
