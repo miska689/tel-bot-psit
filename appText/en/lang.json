@@ -1,0 +1,7 @@
+{
+   "lang": {
+     "commands": {
+       "info": "Hello! Welcome to the official bot of PSITOGEG_SRL!\n\n\uD83C\uDF1F What can you do here?\n\n\uD83D\uDD39 /reg – Register quickly and easily to access all our features.\n\uD83D\uDD39 /log – Log in to access your account and manage our services.\n\nIf you need help or additional information, don't hesitate to contact us!\n\n\"\uD83D\uDEA8 This bot was created for the company PSITOGEG_SRL and only employees are allowed to use it. \uD83D\uDCE2 This bot sends notifications and the user should register or log in before that.\",\n"
+     }
+   }
+}

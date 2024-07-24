@@ -1,0 +1,8 @@
+{
+   "lang": {
+     "commands": {
+       "info": "Salut! Bine ai venit la botul oficial al companiei PSITOGEG_SRL!\n\n\uD83C\uDF1F Ce poți face aici?\n\n\uD83D\uDD39 /reg – Înregistrează-te rapid și simplu pentru a avea acces la toate funcționalitățile noastre.\n\uD83D\uDD39 /log – Loghează-te pentru a accesa contul tău și a gestiona serviciile noastre.\n\nDacă ai nevoie de ajutor sau informații suplimentare, nu ezita să ne contactezi!\n\n🚨 Acest bot a fost creat pentru compania PSITOGEG_SRL și numai angajații au voie să îl folosească. 📢 Acest bot dă notificări și înainte de asta ar trebui ca utilizatorul să se înregistreze sau să se logheze."
+     },
+     "changeLanguage": "Limba a fost schimbata cu succes! \uD83C\uDDF7\uD83C\uDDF4"
+   }
+}

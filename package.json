@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/miska689/tel-bot-psit#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
     "node-telegram-bot-api": "^0.66.0",
     "nodemon": "^3.1.4"
   }
