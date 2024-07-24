@@ -9,9 +9,6 @@ function initMessageEffect(bot) {
         const text = msg.text;
 
 
-        if(text === '/start'){
-            bot.sendMessage(chatId, startText, initLangOptions());
-        }
     }
 }
 

@@ -12,6 +12,10 @@ function initCommands(commands = []) {
             command: '/log',
             description: 'Log in user',
         },
+        {
+            command: '/info',
+            description: 'Info app',
+        },
         ...commands
     ]
 }
